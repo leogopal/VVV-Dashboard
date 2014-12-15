@@ -13,9 +13,9 @@ Please be gentle with this method.
 
 - Firstly, you need to `cd` into your Vagrants www/default/ directory
 - Secondly, clone repository.
-- Thirdly, move the VVV-Dash-Files-tmp/dashboard directory into the default folder.
-- Fourthly, move the VVV-Dash-Files-tmp/dashboard-custom.php into the default folder.
-- Lastly, delete the VVV-Dash-Files-tmp folder * use with care.
+- Thirdly, move the `VVV-Dash-Files-tmp/dashboard` directory into the `default` folder.
+- Fourthly, move the `VVV-Dash-Files-tmp/dashboard-custom.php` into the `default` folder.
+- Lastly, delete the `VVV-Dash-Files-tmp` folder * use with care.
 
 ```
 git clone git@github.com:leogopal/VVV-Dashboard.git VVV-Dash-Files-tmp
@@ -29,7 +29,7 @@ sudo rm -rf VVV-Dash-Files
 Safest and simplest method, however if you are proficient with terminal, that is the quickest method.
 
 - Download this repository.
-- Copy the `dasboard` folder to your Vagrants www/default folder.
+- Copy the `dasboard` folder to your Vagrants `www/default` folder.
 - Copy the `dashboard-custom.php` file to your Vagrants www/default folder.
 - Delete repository (its no longer needed).
 - You're done.
