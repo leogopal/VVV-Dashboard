@@ -19,9 +19,9 @@ Please be gentle with this method.
 
 ```
 git clone git@github.com:leogopal/VVV-Dashboard.git VVV-Dash-Files-tmp
-sudo ditto VVV-Dash-Files/dashboard dashboard/
-sudo ditto VVV-Dash-Files/dashboard-custom.php dashboard-custom.php
-sudo rm -rf VVV-Dash-Files
+sudo ditto VVV-Dash-Files-tmp/dashboard dashboard/
+sudo ditto VVV-Dash-Files-tmp/dashboard-custom.php dashboard-custom.php
+sudo rm -rf VVV-Dash-Files-tmp
 ```
 
 ## Installation (manual)
