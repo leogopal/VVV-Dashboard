@@ -1,7 +1,10 @@
 VVV-Dashboard
 =============
 
-A Beautiful, Simple and Easy-To-Use Dashboard for Varying Vagrant Vagrants (VVV)
+A Beautiful, Simple and Easy-To-Use Dashboard for Varying Vagrant Vagrants (VVV).
+
+![image](https://raw.githubusercontent.com/leogopal/VVV-Dashboard/master/dashboard-screenshot.png)
+https://cldup.com/vhBPx0XYtz.png
 
 Instructions
 -
