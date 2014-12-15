@@ -7,10 +7,10 @@
         </div>
         <div class="large-6 columns">
           <ul class="inline-list right">
-            <li><a href="#">Day of Code</a></li>
-            <li><a href="#">GitHub</a></li>
-            <li><a href="#">Submit Issue</a></li>
-            <li><a href="#">About</a></li>
+            <li><a href="http://dayofcode.net/" target="_blank">Day of Code</a></li>
+            <li><a href="https://github.com/leogopal/VVV-Dashboard" target="_blank">GitHub</a></li>
+            <li><a href="https://github.com/leogopal/VVV-Dashboard/issues/new" target="_blank">Submit Issue</a></li>
+            <li><a href="about.php">About</a></li>
           </ul>
         </div>
       </div>
