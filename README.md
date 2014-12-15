@@ -30,7 +30,7 @@ Safest and simplest method, however if you are proficient with terminal, that is
 
 - Download this repository.
 - Copy the `dasboard` folder to your Vagrants `www/default` folder.
-- Copy the `dashboard-custom.php` file to your Vagrants www/default folder.
+- Copy the `dashboard-custom.php` file to your Vagrants `www/default` folder.
 - Delete repository (its no longer needed).
 - You're done.
 

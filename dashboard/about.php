@@ -38,8 +38,8 @@
 
     <!-- A default button-group -->
 <ul class="button-group">
-  <li><a href="#" class="button success">VVV Dashboard on Github</a></li>
-  <li><a href="#" class="button warning">Submit Issues on Github</a></li>
+  <li><a href="https://github.com/leogopal/VVV-Dashboard" class="button success" target="_blank">VVV Dashboard on Github</a></li>
+  <li><a href="https://github.com/leogopal/VVV-Dashboard/issues/new" class="button warning" target="_blank">Submit Issues on Github</a></li>
 </ul>
 
     <h2>Credits and Resources</h2>
