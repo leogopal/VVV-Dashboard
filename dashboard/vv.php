@@ -9,6 +9,7 @@
   <!-- If you are using the CSS version, only link these 2 files, you may add app.css to use for your overrides if you like -->
   <link rel="stylesheet" href="assets/css/normalize.css">
   <link rel="stylesheet" href="assets/css/foundation.css">
+  <link rel="stylesheet" href="assets/css/vvv-dashboard.css">
 
   <script src="assets/js/vendor/modernizr.js"></script>
 

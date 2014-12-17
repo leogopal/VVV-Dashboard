@@ -8,4 +8,4 @@ function redirect($url, $statusCode = 301)
 
 redirect('/dashboard/index.php');
 
-// include_once 'dashboard/index.php'; ?>
+?>

@@ -1,17 +1,6 @@
 <?php
 
-/**
- * Create an array of the hosts from all of the VVV host files
- *
- * @author         Jeff Behnke <code@validwebs.com>
- * @copyright  (c) 2014 ValidWebs.com
- *
- * Created:    5/23/14, 12:57 PM
- *
- * @param $path
- *
- * @return array
- */
+
 function getHosts( $path ) {
 
 	$array = array();

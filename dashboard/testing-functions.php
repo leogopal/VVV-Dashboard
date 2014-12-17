@@ -1,3 +1,7 @@
+<?php 
+include_once 'partials/getHosts.php'; 
+$debugstatuses = getwpdebug( '../..' );
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,7 +13,6 @@
   <!-- If you are using the CSS version, only link these 2 files, you may add app.css to use for your overrides if you like -->
   <link rel="stylesheet" href="assets/css/normalize.css">
   <link rel="stylesheet" href="assets/css/foundation.css">
-  <link rel="stylesheet" href="assets/css/vvv-dashboard.css">
 
   <script src="assets/js/vendor/modernizr.js"></script>
 
@@ -24,22 +27,16 @@
 <?php @include('partials/navbar.php'); ?>
 
 <div class="row">
-		<h1>VVV Overview</h1>
-
-	<div class="large-9 columns">
-		<?php @include('partials/list-sites.php'); ?>
-	</div>
-
-	<div class="large-3 columns">
-
-		<?php @include('partials/vagrant-commands.php'); ?>
-
-	</div>
-
+	<?php
+	foreach ( $debugstatuses as $debugstatus ) {
+	echo '<div class="row">
+			<div class="small-7 columns">' . $debugstatus . '</div>
+		</div>' . "\n";
+} // end foreach
+unset( $debugstatus ); ?>
+		
 </div>
+
 <?php @include('partials/footer.php'); ?>
-<script>
-    $(document).foundation();
-  </script>
 </body>
 </html>

@@ -15,9 +15,9 @@ $hosts = getHosts( '../..' );
 
 <?php
 foreach ( $hosts as $host ) {
-	echo '<div class="row">
-			<div class="small-7 columns">' . $host . '</div>
-				<div class="small-5 columns">
+	echo '<div class="row site-list">
+			<div class="small-8 columns"><span class="site-name">' . $host . '</span></div>
+				<div class="small-4 columns">
 				<ul class="button-group radius">
 				<li><a class="button tiny" href="http://' . $host . '/" target="_blank">Visit Site</a></li>
 				<li><a class="button success tiny" href="http://' . $host . '/wp-admin" target="_blank">/wp-admin/</a></li>

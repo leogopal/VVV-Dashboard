@@ -1,0 +1,25 @@
+/**
+ * Custom VVV Dashboard Skinning
+ */
+
+/*.small-5 { width: 38%; }
+.small-7 { width: 60%; }*/
+
+.site-list .button.tiny {
+	padding-top: 0.4rem;
+	padding-right: 0.6rem;
+	padding-bottom: 0.4rem;
+	padding-left: 0.6rem;
+	font-size: 0.7rem;
+	margin: .3rem 0 .3rem;
+}
+
+.site-list:hover { background: #eee;}
+
+.site-list .small-4 {
+width: 30%;
+}
+
+.site-list .site-name {
+	vertical-align: -webkit-baseline-middle;
+}
