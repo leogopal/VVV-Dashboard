@@ -1,4 +1,4 @@
-VVV-Dashboard
+VVV-Dashboard `1.0.1`
 =============
 
 A Beautiful, Simple and Easy-To-Use Dashboard for [Varying Vagrant Vagrants](https://github.com/Varying-Vagrant-Vagrants/VVV) (VVV).
