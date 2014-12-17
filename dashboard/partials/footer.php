@@ -3,7 +3,7 @@
       <hr/>
       <div class="row">
         <div class="large-6 columns">
-          <p>GPL+2 License | created by Leo Gopal ( <a href="https://twitter.com/leogopal" target="_blank">twitter</a> )</p>
+          <p><img src="assets/img/dashboard-icon-x32.png"> GPL+2 License | Leo Gopal ( <a href="https://twitter.com/leogopal" target="_blank">twitter</a> )</p>
         </div>
         <div class="large-6 columns">
           <ul class="inline-list right">

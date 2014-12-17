@@ -2,9 +2,6 @@
  * Custom VVV Dashboard Skinning
  */
 
-/*.small-5 { width: 38%; }
-.small-7 { width: 60%; }*/
-
 .site-list .button.tiny {
 	padding-top: 0.4rem;
 	padding-right: 0.6rem;
@@ -22,4 +19,13 @@ width: 30%;
 
 .site-list .site-name {
 	vertical-align: -webkit-baseline-middle;
+}
+
+.top-bar-section li:not(.has-form) a:not(.button):hover {
+	background-color: #008CBA;
+	background: #008CBA;
+}
+
+.top-bar-section .dropdown li:not(.has-form):not(.active) > a:not(.button):hover {
+	background: #008CBA;
 }

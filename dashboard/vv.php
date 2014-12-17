@@ -10,6 +10,8 @@
   <link rel="stylesheet" href="assets/css/normalize.css">
   <link rel="stylesheet" href="assets/css/foundation.css">
   <link rel="stylesheet" href="assets/css/vvv-dashboard.css">
+    <!--[if IE]><link rel="shortcut icon" href="assets/img/favicon.ico"><![endif]-->
+  <link rel="icon" href="assets/img/favicon.ico">
 
   <script src="assets/js/vendor/modernizr.js"></script>
 

@@ -5,15 +5,13 @@ $hosts = getHosts( '../..' );
 
 ?>
 
-<div class="panel callout radius">
-	<code><?php echo count($hosts); ?></code> sites currently setup, to easily create more try: <a href="vv.php">VVV Site Creation Wizard</a>.
-</div>
-
 <div data-alert class="alert-box secondary">
-  <code>xdebug_on</code> must be enabled <a href="https://github.com/Varying-Vagrant-Vagrants/VVV/wiki/Code-Debugging#turning-on-xdebug" target="_blank">(How?)</a> to use the Profiler.
+  For <code>Profiler</code> to work, <code>xdebug_on</code> must be enabled. <a href="https://github.com/Varying-Vagrant-Vagrants/VVV/wiki/Code-Debugging#turning-on-xdebug" target="_blank">(How?)</a>
+<a href="#" class="close">&times;</a>
 </div>
 
 <?php
+
 foreach ( $hosts as $host ) {
 	echo '<div class="row site-list">
 			<div class="small-8 columns"><span class="site-name">' . $host . '</span></div>
