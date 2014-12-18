@@ -72,6 +72,10 @@ All notable changes to this project will be documented in the [CHANGELOG.md](htt
 ## To-do
 **Enhancements**
 
+* Add a simple GUI for `vv` to the Dashboard.
+* Make the Dashboard more friendly to WordPress Developers by linking to Dev Resources. (not just VVV resources).
+* Have a 'getting started' with VVV and vv section
+* Have a basic troubleshooting area for VVV and vv (simple things we commonly do wrong)
 * Find method for better updating to newer versions.
 * Find a way of displaying whether `WP_DEBUG` true or not.
 * Find a way to make sure a site is a WordPress site.
