@@ -53,6 +53,8 @@
       <li><a href="https://github.com/bradp/vv" target="_blank">Variable VV</a> by Brad Parbs, a quick and easy <a href="vv.php">VVV Site Creation Wizard</a>.</li>
       <li>WordPress Theme Reviews <a href="https://github.com/aubreypwd/wordpress-themereview-vvv" target="_blank">VVV Helper</a></li>
       <li><a href="http://foundation.zurb.com/" target="_blank">Foundation 5</a> by ZURB was used for the design.</li>
+      <li><a href="https://twitter.com/hlashbrooke" target="_blank">Hugh Lashbrooke</a> and <a href="https://twitter.com/rob_neu" target="_blank">Robert Neu for getting me onto VVV.</a></li>
+      <li><a href="http://kolakube.com" target="_blank">Alex Mangini</a> is to blame for me wanting to beautify things.</li>
    </ul>
 
 </div>
