@@ -82,4 +82,4 @@ All notable changes to this project will be documented in the [CHANGELOG.md](htt
 - [Hugh Lashbrooke](https://twitter.com/hlashbrooke) and [Robert Neu](https://twitter.com/rob_neu) for getting me onto VVV.
 - [Alex Mangini](http://kolakube.com) for getting me obsessed with beautifying things.
 - [Foundation 5](http://foundation.zurb.com/docs/) by ZURB for the design framework.
-- VVV-Dashboard by @topdown is a great alternative if you want a different Dashboard ([check it out](https://github.com/topdown/VVV-Dashboard)).
+- VVV-Dashboard by @topdown is a great alternative to this one. ([check it out](https://github.com/topdown/VVV-Dashboard)).
