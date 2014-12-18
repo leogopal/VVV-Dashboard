@@ -1,29 +1,14 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<title>Varying Vagrant Vagrants Dashboard</title>
-	<meta charset="utf-8">
-  <!-- If you delete this meta tag World War Z will become a reality -->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <!-- If you are using the CSS version, only link these 2 files, you may add app.css to use for your overrides if you like -->
-  <link rel="stylesheet" href="assets/css/normalize.css">
-  <link rel="stylesheet" href="assets/css/foundation.css">
-  <link rel="stylesheet" href="assets/css/vvv-dashboard.css">
-    <!--[if IE]><link rel="shortcut icon" href="assets/img/favicon.ico"><![endif]-->
-  <link rel="icon" href="assets/img/favicon.ico">
-
-  <script src="assets/js/vendor/modernizr.js"></script>
-
-</head>
-<body>
-	<script src="assets/js/vendor/jquery.js"></script>
-	<script src="assets/js/foundation/foundation.js"></script>
-	<script src="assets/js/foundation/foundation.topbar.js"></script>
-
-  <!-- Other JS plugins can be included here -->
-<!-- Fixed navbar -->
-<?php @include('partials/navbar.php'); ?>
+<?php
+/**
+ * Template to display a page with information about the VV script.
+ *
+ * @package     VVVDashboard
+ * @copyright   Copyright (c) 2014, Leo Gopal
+ * @license     GPL-2.0+
+ * @since       1.0.0
+ */
+?>
+<?php require_once( 'partials/header.php' ); ?>
 
 <div class="row">
 	<h1>Variable VVV - a VVV Site Creation Wizard</h1>
@@ -58,7 +43,7 @@
 	<h3>Site Deletion</h3>
 
 	<p><code>vv delete</code> deletes the sites webroot, but does not delete the site's database</p>
-			
+
 	<h2>Advanced Usage</h2>
 
 	<div class="panel callout">
@@ -67,6 +52,5 @@
 
 </div>
 
-<?php @include('partials/footer.php'); ?>
-</body>
-</html>
+<?php
+require_once( 'partials/footer.php' );

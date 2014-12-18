@@ -1,16 +1,32 @@
-<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-	<div class="container">
-		<div class="navbar-header">
-			<a class="navbar-brand" href="./">Dashboard</a>
-		</div>
+<?php
+/**
+ * Template part to display a all global header elements.
+ *
+ * @package     VVVDashboard
+ * @copyright   Copyright (c) 2014, Leo Gopal
+ * @license     GPL-2.0+
+ * @since       1.0.0
+ */
+?>
+<!DOCTYPE html>
+<html lang="en">
 
-			<ul class="nav navbar-nav">
-				<li><a href="database-admin/" target="_blank">phpMyAdmin</a></li>
-				<li><a href="memcached-admin/" target="_blank">phpMemcachedAdmin</a></li>
-				<li><a href="opcache-status/opcache.php" target="_blank">Opcache Status</a></li>
-				<li><a href="webgrind/" target="_blank">Webgrind</a></li>
-				<li><a href="phpinfo/" target="_blank">PHP Ifo</a></li>
-			</ul>
+<?php require_once( 'functions.php' ); ?>
 
-	</div>
-</div>
+<head>
+	<title>Varying Vagrant Vagrants Dashboard</title>
+	<meta charset="utf-8">
+	<!-- If you delete this meta tag World War Z will become a reality -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" href="assets/css/normalize.min.css">
+	<link rel="stylesheet" href="assets/css/foundation.min.css">
+	<link rel="stylesheet" href="assets/css/vvv-dashboard.css">
+	<!--[if IE]><link rel="shortcut icon" href="assets/img/favicon.ico"><![endif]-->
+	<link rel="icon" href="assets/img/favicon.ico">
+
+	<script src="assets/js/vendor/modernizr.js"></script>
+</head>
+
+<?php
+require_once( 'partials/navbar.php' );

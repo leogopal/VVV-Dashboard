@@ -1,55 +1,27 @@
 <?php
-
-include_once 'partials/getHosts.php';
-$hosts = getHosts( '../..' );
-
+/**
+ * Template to display the main dashboard index page.
+ *
+ * @package     VVVDashboard
+ * @copyright   Copyright (c) 2014, Leo Gopal
+ * @license     GPL-2.0+
+ * @since       1.0.0
+ */
 ?>
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<title>Varying Vagrant Vagrants Dashboard</title>
-	<meta charset="utf-8">
-  <!-- If you delete this meta tag World War Z will become a reality -->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <!-- If you are using the CSS version, only link these 2 files, you may add app.css to use for your overrides if you like -->
-  <link rel="stylesheet" href="assets/css/normalize.css">
-  <link rel="stylesheet" href="assets/css/foundation.css">
-  <link rel="stylesheet" href="assets/css/vvv-dashboard.css">
-  <!--[if IE]><link rel="shortcut icon" href="assets/img/favicon.ico"><![endif]-->
-  <link rel="icon" href="assets/img/favicon.ico">
-
-  <script src="assets/js/vendor/modernizr.js"></script>
-
-</head>
-<body>
-	<script src="assets/js/vendor/jquery.js"></script>
-	<script src="assets/js/foundation/foundation.js"></script>
-	<script src="assets/js/foundation/foundation.topbar.js"></script>
-	<script src="assets/js/foundation/foundation.alert.js"></script>
-
-  <!-- Other JS plugins can be included here -->
-<!-- Fixed navbar -->
-<?php @include('partials/navbar.php'); ?>
+<?php require_once( 'partials/header.php' ); ?>
 
 <div class="row">
-		<h1><code><?php echo count($hosts); ?></code> <small>VVV Sites</small></h1>
+	<h1><?php echo count( $vvv_hosts ); ?> Active VVV Sites</h1>
 
-	<div class="large-9 columns">
-		<?php @include('partials/list-sites.php'); ?>
+	<div class="large-8 columns site-list">
+		<?php require_once( 'partials/site-list.php' ); ?>
 	</div>
 
-	<div class="large-3 columns">
-
-		<?php @include('partials/sidebar.php'); ?>
-
-	</div>
+	<aside class="large-4 columns sidebar">
+		<?php require_once( 'partials/sidebar.php' ); ?>
+	</aside>
 
 </div>
-<?php @include('partials/footer.php'); ?>
-<script>
-    $(document).foundation();
-  </script>
-</body>
-</html>
+
+<?php
+require_once( 'partials/footer.php' );

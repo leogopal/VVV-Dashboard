@@ -1,28 +1,30 @@
 <?php
-
-include_once 'getHosts.php';
-$hosts = getHosts( '../..' );
-
+/**
+ * Template part to display a list of VVV sites.
+ *
+ * @package     VVVDashboard
+ * @copyright   Copyright (c) 2014, Leo Gopal
+ * @license     GPL-2.0+
+ * @since       1.0.0
+ */
 ?>
+<?php if ( ! empty( $vvv_hosts ) ) : ?>
 
-<div data-alert class="alert-box secondary">
-  For <code>Profiler</code> to work, <code>xdebug_on</code> must be enabled. <a href="https://github.com/Varying-Vagrant-Vagrants/VVV/wiki/Code-Debugging#turning-on-xdebug" target="_blank">(How?)</a>
-<a href="#" class="close">&times;</a>
-</div>
-
-<?php
-
-foreach ( $hosts as $host ) {
-	echo '<div class="row site-list">
-			<div class="small-8 columns"><span class="site-name">' . $host . '</span></div>
-				<div class="small-4 columns">
-				<ul class="button-group radius">
-				<li><a class="button tiny" href="http://' . $host . '/" target="_blank">Visit Site</a></li>
-				<li><a class="button success tiny" href="http://' . $host . '/wp-admin" target="_blank">/wp-admin/</a></li>
-				<li><a class="button secondary tiny" href="http://' . $host . '/?XDEBUG_PROFILE" target="_blank">Profiler</a></li>
+	<?php foreach ( $vvv_hosts as $host ) : ?>
+		<div class="row vvv-site">
+			<div class="site-list-left">
+				<a class="site-name" href="http://<?php echo $host; ?>/" target="_blank"><?php echo $host; ?></a>
+			</div>
+			<div class="site-list-right">
+				<ul class="site-links">
+					<li class="admin"><a href="http://<?php echo $host; ?>/wp-admin" target="_blank">WP Admin</a></li>
+					<li class="debug"><a href="http://<?php echo $host; ?>/?XDEBUG_PROFILE" target="_blank">Profiler</a></li>
 				</ul>
 			</div>
-		</div>' . "\n";
-} // end foreach
-unset( $host ); ?>
-	
+		</div>
+		<?php unset( $host ); ?>
+	<?php endforeach; ?>
+
+	<?php
+
+endif;
