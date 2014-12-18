@@ -7,7 +7,8 @@ A Beautiful, Simple and Easy-To-Use Dashboard for [Varying Vagrant Vagrants](htt
 
 Because working in terminal and trying to manage all your VVV installs via terminal is not always easy, VVV Dashboard hopes to add a layer of ease and beauty between you and your vagrants. It displays a list of sites that are installed in your VVV www path in a simple, beautiful way.
 
-**Version**: `1.0.1.1`
+**Version**: `1.2.0`
+
 **License**: GPLv2
 
 ### Requirements

@@ -16,3 +16,8 @@ All contributions welcome. If you would like to submit a pull request, please fo
 2. Fork the repository on GitHub.
 3. Make changes to your clone of the repository.
 4. [Submit a pull request](https://help.github.com/articles/creating-a-pull-request/).
+
+## Contributors
+
+- [Leo Gopal](https://github.com/leogopal)
+- [Robert Neu](https://github.com/robneu)

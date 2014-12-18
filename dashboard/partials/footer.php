@@ -13,7 +13,7 @@
 		<hr/>
 		<div class="row">
 			<div class="large-6 columns">
-         		<p><img src="assets/img/dashboard-icon-x32.png"><code>v 1.0.1.1</code> | GPL+2 License | Leo Gopal ( <a href="https://twitter.com/leogopal" target="_blank">twitter</a> )</p>			</div>
+         		<p><img src="assets/img/dashboard-icon-x32.png"><code>v 1.2.0</code> | GPL+2 License | Leo Gopal ( <a href="https://twitter.com/leogopal" target="_blank">twitter</a> )</p>			</div>
 			<div class="large-6 columns">
 				<ul class="inline-list right">
 					<li><a href="http://dayofcode.net/" target="_blank">Day of Code</a></li>

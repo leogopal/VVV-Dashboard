@@ -1,6 +1,19 @@
 CHANGELOG
 =============
 
+### [1.2.0] - 2014-12-18
+**Enhancements by Robert Neu**
+
+- Improved documentation and coding standards
+- Renamed and moved getHosts.php
+- Improved docs and coding standards 
+- Renamed list-sites.php
+- Template cleanup
+- Removed unused asset files
+- Added minified versions of all scripts and styles
+- Simplified visuals
+- Added back changes from v1.0.1.1
+
 ### [1.0.1.1] - 2014-12-18
 - Added CONTRIBUTING.md
 - Added CHANGELOG.md
