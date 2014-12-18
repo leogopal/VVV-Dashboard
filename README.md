@@ -71,7 +71,6 @@ All notable changes to this project will be documented in the [CHANGELOG.md](htt
 ## To-do
 **Enhancements**
 
-* Fix known issues (above)
 * Find method for better updating to newer versions.
 * Find a way of displaying whether `WP_DEBUG` true or not.
 * Find a way to make sure a site is a WordPress site.
