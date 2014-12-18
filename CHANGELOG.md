@@ -1,7 +1,7 @@
 CHANGELOG
 =============
 
-### [1.0.1.1] - 2014-12-17
+### [1.0.1.1] - 2014-12-18
 - Added CONTRIBUTING.md
 - Added CHANGELOG.md
 - Updated README.md
