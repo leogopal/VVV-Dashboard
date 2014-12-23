@@ -19,7 +19,7 @@
  * @param  $depth integer the number of directory levels to iterate through
  * @return $hosts array a list of vvv sites
  */
-function get_vvv_hosts( $path, $depth = 2 ) {
+function get_vvv_hosts( $path, $depth = 3 ) {
 	$dirs  = new RecursiveDirectoryIterator( $path, RecursiveDirectoryIterator::SKIP_DOTS );
 	$files = new RecursiveIteratorIterator( $dirs );
 	// Bail if we don't have any files.
