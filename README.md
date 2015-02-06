@@ -88,3 +88,7 @@ All notable changes to this project will be documented in the [CHANGELOG.md](htt
 - [Alex Mangini](http://kolakube.com) for getting me obsessed with beautifying things.
 - [Foundation 5](http://foundation.zurb.com/docs/) by ZURB for the design framework.
 - VVV-Dashboard by @topdown is a great alternative to this one. ([check it out](https://github.com/topdown/VVV-Dashboard)).
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/leogopal/vvv-dashboard/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
