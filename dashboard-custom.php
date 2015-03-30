@@ -23,4 +23,4 @@ function redirect( $url, $status_code = 301 ) {
 }
 
 // Fire our redirect.
-redirect( '/dashboard/index.php' );
+redirect( '/dashboard/index.php', 302 );
