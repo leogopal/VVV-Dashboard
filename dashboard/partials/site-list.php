@@ -24,6 +24,11 @@
 		</div>
 		<?php unset( $host ); ?>
 	<?php endforeach; ?>
+<?php else: ?>
+		<div class="row vvv-site">
+			You current have no VVV sites, add at least one site to your host file
+		</div>
+
 
 	<?php
 
