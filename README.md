@@ -16,32 +16,27 @@ Because working in terminal and trying to manage all your VVV installs via termi
 - [Varying Vagrant Vagrants](https://github.com/Varying-Vagrant-Vagrants/VVV)
 - Vagrant needs to be running: `vagrant up`
 
-## Installation via terminal
+Setup
+-
+Clone this repo to your VVV/www/default/ directory and then copy dashboard-custom.php there:
 
-**Please be gentle with this method.**
-
-- Firstly, you need to `cd` into your Vagrants www/default/ directory
-- Secondly, clone repository.
-- Thirdly, move the `VVV-Dash-Files-tmp/dashboard` directory into the `default` folder.
-- Fourthly, move the `VVV-Dash-Files-tmp/dashboard-custom.php` into the `default` folder.
-- Lastly, delete the `VVV-Dash-Files-tmp` folder * use with care.
-
-```
-git clone git@github.com:leogopal/VVV-Dashboard.git VVV-Dash-Files-tmp
-sudo ditto VVV-Dash-Files-tmp/dashboard dashboard/
-sudo ditto VVV-Dash-Files-tmp/dashboard-custom.php dashboard-custom.php
-sudo rm -rf VVV-Dash-Files-tmp
+```sh
+cd www/default
+git clone https://github.com/topdown/VVV-Dashboard.git dashboard
+cp dashboard/dashboard-custom.php .
 ```
 
-## Installation Manual (recommended for most users)
+While VVV is running (`vagrant up`), the new dashboard is now viewable at your VVV root (usually [vvv](http://vvv) or [vvv.dev](http://vvv.dev)).
 
-Safest and simplest method, however if you are proficient with terminal, that is the quickest method.
+Update
+-
+Update your repo via `git pull` and then copy dashboard-custom.php to your default directory.
 
-- Download this repository.
-- Copy the `dasboard` folder to your Vagrants `www/default` folder.
-- Copy the `dashboard-custom.php` file to your Vagrants `www/default` folder.
-- Delete repository (its no longer needed).
-- You're done.
+```sh
+cd www/default/dashboard
+git pull
+cp dashboard-custom.php ..
+```
 
 ## Issues and Feature Requests
 
@@ -69,26 +64,9 @@ VVV-Dashboard comes built with references for [Variable VVV](https://github.com/
 
 All notable changes to this project will be documented in the [CHANGELOG.md](https://github.com/leogopal/VVV-Dashboard/blob/master/CHANGELOG.md).
 
-## To-do
-**Enhancements**
-
-* Add a simple GUI for `vv` to the Dashboard.
-* Make the Dashboard more friendly to WordPress Developers by linking to Dev Resources. (not just VVV resources).
-* Have a 'getting started' with VVV and vv section
-* Have a basic troubleshooting area for VVV and vv (simple things we commonly do wrong)
-* Find method for better updating to newer versions.
-* Find a way of displaying whether `WP_DEBUG` true or not.
-* Find a way to make sure a site is a WordPress site.
-* Check whether Variable VVV is installed, and version, check if up to date.
-* Add Variable VVV Demo Blueprints.
-
 ### Thanks and Credits
 
 - [Hugh Lashbrooke](https://twitter.com/hlashbrooke) and [Robert Neu](https://twitter.com/rob_neu) for getting me onto VVV.
 - [Alex Mangini](http://kolakube.com) for getting me obsessed with beautifying things.
 - [Foundation 5](http://foundation.zurb.com/docs/) by ZURB for the design framework.
 - VVV-Dashboard by @topdown is a great alternative to this one. ([check it out](https://github.com/topdown/VVV-Dashboard)).
-
-
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/leogopal/vvv-dashboard/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
-
