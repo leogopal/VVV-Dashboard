@@ -14,7 +14,8 @@
 	<ul class="no-bullet">
 		<li><code>vagrant up</code></li>
 		<li><code>vagrant halt</code></li>
-		<li><code>vagrant --provision</code></li>
+		<li><code>vagrant up --provision</code></li>
+		<li><code>vagrant provision</code></li>
 		<li><code>vagrant ssh</code></li>
 		<li><code>vagrant suspend</code></li>
 		<li><code>vagrant resume</code></li>
